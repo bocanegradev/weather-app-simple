@@ -43,7 +43,9 @@ function showError(e) {
 
 //! Get weather data
 function getWeather(lat, lon) {
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apikey}`;
+    //? Runnin on a unsafe domain use:
+    // let api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apikey}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apikey}`;
     // console.log(api);
     fetch(api).then(function (response) {
         let data = response.json();
