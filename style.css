@@ -17,7 +17,7 @@ body{
     background-color: #FFF;
     
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
     
     border-radius: 10px;
     padding-bottom : 50px;
@@ -119,8 +119,8 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #222629;
-    color: #aaadaf;
+    background: #212121;
+    color: #9E9E9E;
     text-align: center;
 }
 
@@ -134,16 +134,16 @@ body{
 /* :link a:visted  */
 #footer p a{
     font-family: "Open Sans", sans-serif;
-    color: #86c232;
+    color: #05CB65;
     text-decoration: none;
 }
 
 #footer .fa-heart{
-    color: #86c232;
+    color: #05CB65;
 }
 
 #my-social-links a{
-    color: #aaadaf;
+    color: #9E9E9E;
     text-decoration: none;
     font-size: 20px;
     padding: 7px;
